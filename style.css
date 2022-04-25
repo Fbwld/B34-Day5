@@ -1,0 +1,456 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&family=Roboto:wght@100&display=swap');
+
+body{
+background-color: rgb(235, 233, 233);
+font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.card{
+    height: 93vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-container{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 800px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+    background-color: white;
+}
+.button button{
+    width: 90px;
+    padding: 6px;
+    border-radius: 16px;
+    background-color: rgb(14, 13, 13);
+    color: rgb(255, 255, 255);
+    margin-top: 30px;
+    cursor: pointer;
+    border: none;
+}
+.left-side{
+    width: 450px;
+}
+.right-side{
+    width: 230px;
+    box-shadow: 0px 0px 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    border-radius: 3px;
+    background-color: white;
+}
+.foto img{
+    width: 100%;
+    border-radius: 3px 3px 0px 0px;
+    background-color: white;
+}
+.icon i{
+    margin-top: 40px;
+    color: rgb(14, 13, 13);
+    margin-right: 10px;
+}
+.text{
+    text-align: justify;
+}
+.card-right{
+    margin-bottom: 1px;
+}
+.text1{
+    text-align: center;
+    padding-top: 10px;
+}
+.text2{
+    text-align: center;
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+.button button,p{
+    display: inline;
+}
+.button p{
+    margin-left: 10px;
+}
+.button i{
+    color: rgb(14, 13, 13); 
+}
+
+/*Navbar*/
+nav{
+    display: flex;
+    height: 7vh;
+    background-color: rgb(241, 241, 241);
+}
+nav div{
+    width: 50%;
+    display: flex;
+    align-items: 40px;
+}
+nav .left-nav ol{
+    list-style-type: none;
+    margin-left:40px;
+    margin-top: 12px;
+}
+nav .left-nav ol li{
+    display: inline;
+    margin-left: 40px;
+    padding-top: 10px;
+}
+nav .left-nav ol li a{
+    text-decoration: none;
+    color: rgb(14, 13, 13);
+}
+nav .left-nav img{
+    width: 50px;
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+}
+nav .left-nav{
+    padding-left: 90px;
+}
+nav .right-nav{
+    padding-right: 90px;
+}
+nav .right-nav a{
+    background-color:rgb(14, 13, 13) ;
+    color: white;
+    text-decoration: none;
+    padding: 7px 12px;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 10px;
+}
+nav .right-nav{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 90px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.submit{
+    display: flex;
+justify-content: flex-end;
+}
+
+/* contact me*/
+.contact-form{
+    min-height: 93vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-form label{
+    font-size: 12;
+    font-weight: 800;
+}
+.contact-form  input,textarea,select{
+    border-radius: 7px;
+    background-color: white;
+    font-size: 15px;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: none;
+    padding: 7px;
+    box-shadow: 0px 0px 2px black;
+} 
+.container-contact form button{
+    display: flex;
+    justify-content: center;
+}
+.container-contact form textarea{
+    resize: none;
+    height: 100px;
+}
+.container-contact button{
+    width: 90px;
+    padding: 6px;
+    border-radius: 16px;
+    background-color: rgb(14, 13, 13);
+    color: rgb(255, 255, 255);
+    margin-top: 30px;
+    cursor: pointer;
+    border: none;
+}
+
+/*Logo*/
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 93vh;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+div .left-logo{
+    border-radius: 5px;
+    width: 370px;
+    box-shadow: 0px 0px 7px black;
+    background-color: white;
+    padding: 10px;
+}
+.left-logo .img-logo img{
+    border-radius: 15px;
+    width: 100%;
+}
+.tabel table{
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    padding-top: 10px;
+    border: black;
+    margin-top: 15px;
+}
+.left-logo h1{
+    margin-bottom: 10px;
+    margin-top: 10px ;
+}
+.right-logo{
+    margin-left: 20px;
+    width: 700px;
+    text-align: justify;
+}
+.inline1 img{
+    width: 50px;
+}
+.inline3 img{
+    width: 50px;
+}
+.inline2 img{
+    width: 50px;
+}
+.inline1, .inline2,.inline3{
+    width: 200px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.inline3 h4{
+    margin-bottom: 15px;
+}
+.inline2 h4{
+    margin-bottom: 15px;
+}
+.inline1 h4{
+    margin-bottom: 15px;
+}
+div .inline1,.inline2,.inline3 {
+    display: inline-block;
+}
+.inline2{
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.sosmed i{
+    color: black;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+.gambar img{
+    margin-right: 180px;
+}
+.sosmed{
+    margin-top: 15px;
+}
+.top-logo h1{
+    margin-bottom: 15px;
+}
+
+/*Blog*/
+.form-blog{
+    height: 93vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-b input,textarea{
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+    width: 100%;
+    box-shadow: 0px 0px 3px black;
+    margin-top: 3px;
+    margin-bottom: 15px;
+    background-color: white;
+}
+.container-blog textarea{
+    resize: none;
+    height: 100px;
+}
+.container-blog button{
+    border: none;
+    border-radius: 12px;
+    color: white;
+    background-color:rgb(14, 13, 13) ;
+    width: 78px;
+    padding: 5px;
+    cursor: pointer;
+    float: right;
+}
+div .date1,.date2{
+    display: inline-block;
+}
+div .date1{
+    margin-right: 10px;
+    width: 250px;
+}
+div .date2{
+    margin-left: 10px;
+    width: 300px;
+}
+.container-blog h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.img-upload label{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.form-blog form .img-logo {
+    width: 100%;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    background: #f4f3f3;
+    border: 1px solid #c4c4c4;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.gambar-upload input{
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+    width: 100%;
+    box-shadow: 0px 0px 3px black;
+    margin-top: 3px;
+    margin-bottom: 15px;
+    background-color: white;
+}
+.check .c1 label{
+    padding-right: 150px;
+}
+.check .c2 label{
+    padding-right: 155px;
+}
+.gambar-upload label{
+    margin-top: 15px;
+}
+.check .c2{
+    margin-bottom: 15px;
+}
+/**/
+.hed h2{
+    text-align: center;
+}
+.container-grid{
+    padding: 20px;
+    height: 100%;
+    background-color: white;
+}
+.container-card{
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+}
+
+.card-2{
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    margin: 0px 30px 30px 0px;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom : 20px;
+    box-shadow: 0px 0px 3px rgb(0, 0, 0, 0.3), 0px 0px 3px rgb(0, 0, 0, 0.3), 0px 0px 3px rgb(0, 0, 0, 0.3);
+}
+
+.thumbnail{
+    width: 100%;
+    border-radius: 5px ;
+    height: 250px;
+    /* position: relative;
+    bottom: 35px; */ 
+    /* margin-bottom: 20px; */
+}
+
+.title{
+   font-weight: bold;
+   margin-bottom: 5px;
+}
+
+.deskripsi{
+    font-weight: 800;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+#btn-card{
+   background-color: #151515;
+   width: 200px;
+   border-radius: 10px;
+    height: 30px;
+    cursor: pointer;
+    color: #f4f3f3;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.icon-card{
+    display: flex;
+    margin-bottom: 30px;
+    color: black;
+    margin-right: 10px;
+}
+.blog-detail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 93vh;
+}
+.blog-detail img{
+    width: 100px;
+}
+.button-content button{
+    background-color: #151515;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    cursor: pointer;
+    color: #f4f3f3;
+    font-weight: bold;
+    letter-spacing: 2px;
+ }
+ .button-content{
+     display: flex;
+     
+ }
+.pargraf{
+    text-align: justify;
+}
+.duration p{
+    margin-left: 10px;
+}

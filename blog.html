@@ -1,0 +1,140 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+</head>
+<body>
+    
+    <nav>
+        <div class="left-nav">
+            <a href="logo.html">
+                <img src="img/logo.png" alt="">
+            </a>
+            <ol>
+                <li>
+                    <a href="index.html"><b>Home</b></a>
+                    
+                </li>
+                <li>
+                    <a href="blog.html">Blog</a>
+                </li>
+            </ol>
+        </div>
+        <div class="right-nav">
+            <a href="contact.html">Contact Me</a>  
+        </div>
+    </nav>
+<div class="blog">
+    <div class="form-blog">
+        <div class="container-blog">
+            <form onsubmit="addBlog(event)">
+                <div class="header">
+                    <h1> ADD MY PROJECT</h1>
+                </div>
+                <DIV>
+                    <div class="form-b">
+                        <div class="">
+                            <label for="name">Project Name</label>
+                            <input type="text" id="name">
+                        </DIV>
+                        <div class="date1">
+                            <label for="start">Start Date</label>
+                            <input type="date" name="" id="datestart">
+                        </div>
+                        <div class="date2">
+                            <label for="end">End Date</label>
+                            <input type="date" id="dateend">
+                        </div>
+                        <div>
+                            <label for="description">Description</label>
+                            <textarea name="description" id="desc" cols="30" rows="10"></textarea>
+                        </div>
+                    </div>
+                <div>
+                    <div>
+                        <label for="technologies">Technologies</label>
+                    </div>
+                    <div class="l">
+                        <div class="check">
+                            <div class="c1" style="width: 100%;">
+                                <input type="checkbox" id="nodeJs">
+                                <label for="node">Node Js</label>
+                                <input type="checkbox" id="reactJs">
+                                <label for="react">React Js</label>
+                            </div>
+                            <div class="c2">
+                                <input type="checkbox" name="" id="nextJs">
+                                <label for="next">Next Js</label>
+                                <input type="checkbox" name="tipe" id="typeScript">
+                                <label for="tipe">Type Script</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gambar-upload">
+                    <div class="upload-gambar" style="margin-right: 10px;">
+                        <label for="upload">Upload Image</label>
+                        <input type="file" name="upload" id="image">
+                    </div>
+                </div>
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<div id="test">
+</div>
+<hr class="line" />
+
+<div class="contents" >
+    <div class="container-grid">
+        <div>
+            <div class="hed">
+                <h2>My Project</h2>
+            </div>
+            <div class="content" id="contents">
+                <div class="container-card">
+                    <div class="column">
+                        <div class="card-2">
+                            <div>
+                                <img class="thumbnail" src="img/wp6896885.jpg" alt="">
+                            </div>
+                            <div>
+                                <a href="blog-detail.html"><h3 class="title">Dumbways project</h3></a>
+                                <p>durasi : 3 bulan</p>
+                                <div class="deskripsi">
+                                <p class="paragraf">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, deleniti molestias? Placeat, ut! Asperiores, fuga similique dolore, praesentium voluptate cumque corporis quia distinctio accusamus neque enim? Nemo atque dolorem labore?
+                                </p>
+                            </div>
+                            <div class="icon-card">
+                                <img src="img/nextJs.svg" width="30px" style="margin-left: 10px;" />
+                                <img src="img/nodeJs.svg" width="30px" style="margin-left: 10px;"/>
+                                <img src="img/reactJs.svg" width="30px" style="margin-left: 10px;" />
+                                <img src="img/typeScript.svg" width="30px" style="margin-left: 10px;"/>
+                            </div>
+                                <div class="button-content">
+                                        <button id="btn-edit">Edit</button>
+                                        <button id="btn-delete">Delete</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </div>
+</div>
+<script src="blog.js"></script>
+</body>
+</html>
